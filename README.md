@@ -4,8 +4,8 @@ Problem description:
 -----------------------------
 In server1, at sourcePath: / / a log file is written and after a time 
 content of log files are zipped as ussd_client_info_YYYYMMDD_1.log.gz. 
+into sourcePath/archived/ directory.
 The contents of log files are as follows:
-
 
 
 In server2, at path: / / there is a list of files which is considered as 
