@@ -24,3 +24,7 @@ into a file; file name convention: two12_lastProcessingTime_CurrentProcessingTim
 
 Now you have to compare the file list of server1 with server2 and generate the unprocessed list, make a tar file including the 
 unprocessed files, then move this tar file to the destination directory of server2.
+
+Note: For executing MAIN.sh in every 5 minutes, you can schedule MAIN.sh like this:
+> crontab -e </br>
+5 * * * * /path/to/your/script/MAIN.sh
