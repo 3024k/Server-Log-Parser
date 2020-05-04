@@ -18,7 +18,7 @@ The contents of log files are as follows:
 In server2, at path: / / there is a list of files which is considered as processed files. 
 
 You have to write a script that is scheduled for execution at every 5 minutes and on each run, it formats the log content as:
-YYYYMMDD | HH:MM:SS.milisec | CX | ID | USSD CODE
+YYYYMMDD | HH:MM:SS.milisec | CX | ID | USSD CODE <br/>
 ![Alt text](/img/1.PNG?raw=true "format of output log") <br/>
 into a file; file name convention: two12_lastProcessingTime_CurrentProcessingTime.txt ,e.g., two12_201907221230_201907221235.txt
 
